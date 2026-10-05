@@ -34,6 +34,13 @@ These have more tha one dataset, but are not massive clearinghouses
 ## What about _______?
 The Prison Policy Initative has a list of [datasets they wish existed](https://www.prisonpolicy.org/blog/2024/12/19/data-wishlist/), but which do not.
 
+## Ruolin's Datasets for Stage 1
+- [United States Sentencing Commission - Interactive Data Analyzer](https://ida.ussc.gov/analytics/saw.dll?Dashboard&PortalPath=%2Fshared%2FIDA%2F_portal%2FIDA%20Dashboards)
+- [Federally Sentenced Non-U.S. Citizens](https://www.ussc.gov/research/quick-facts/federally-sentenced-non-us-citizens)
+-[Commission Datafiles](https://www.ussc.gov/research/datafiles/commission-datafiles)
+-[Immigration and Customs Enforcement - Arrests](https://deportationdata.org/data/processed/ice.html)
+-[Immigration and Customs Enforcement - Arrests joined with detention stays](https://deportationdata.org/data/processed/ice.html)
+
 ## Children & Criminal Justice System Datasets
 - [Survey of Youths in Custody, 1987](https://www.icpsr.umich.edu/web/NACJD/studies/8992/versions/V3) The survey provides detailed information on the characteristics of youths held primarily in secure settings within the juvenile justice system. The data contain information on criminal histories, family situations, drug and alcohol use, and peer group activities. For youths committed for violent acts, data are available on the victims of their crimes and on weapon use
 - [Survey of Youth in Residential Placement (SYRP) 2003 [United States]](https://catalog.data.gov/dataset/survey-of-youth-in-residential-placement-syrp-2003-united-states) According to the description, the Survey of Youth in Residential Placement (SYRP) is the only national survey that collects information directly from young people in the juvenile justice system. Developed by the Office of Juvenile Justice and Delinquency Prevention (OJJDP), it uses anonymous interviews to ask youth aged 10 to 20 about their backgrounds, facility conditions, and personal experiences
