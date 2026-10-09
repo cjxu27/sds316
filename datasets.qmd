@@ -13,6 +13,11 @@ title: "Data Sources"
 - [Vera Institute's Incarceration Trends](https://github.com/vera-institute/incarceration-trends)
 - [Prison Map - Geography of Incarceration](https://prisonmap.com/)
 - [Correctional Procurement Contracts](https://www.prisonpolicy.org/contracts/documents.html)
+- [North Carolina Department of Public Instruction](https://www.dpi.nc.gov/data-reports/common-education-data-analysis-and-reporting-system-cedars)
+- [CMPD Incidents](https://data.charlottenc.gov/datasets/d22200cd879248fcb2258e6840bd6726_0/explore?location=35.227619%2C-80.841935%2C12)
+- [Charlotte Mecklenburg Quality of Life Explorer](https://maps.mecklenburgcountync.gov/qol/#89/)
+- [U.S. Census Bureau - American Community Survey (ACS)](https://www.census.gov/programs-surveys/acs)
+- [Student Boundary Maps](https://www.cmsk12.org/academics/planning-services/student-boundary-maps)
 - [Redistricting Data Hub - TX PL 94-171 Data](https://redistrictingdatahub.org/dataset/texas-block-pl-94171-2020/)
 - [Redistricting Data Hub - TX 2026-2035 Population Estimates by Census Block](https://redistrictingdatahub.org/dataset/texas-population-projections-20262035-at-the-block-level/)
 - [Redistricting Data Hub - TX Correctional Facility Population Counts by Census Block (2020)](https://redistrictingdatahub.org/dataset/2020-texas-ppi-correctional-facility-population-counts-at-the-block-level/)
@@ -72,3 +77,9 @@ This dataset is about exonerations which could be a useful lens to look through.
 - [National Survey of Youth in Custody, 2012](https://catalog.data.gov/dataset/national-survey-of-youth-in-custody-2012?from_hint=eyJrZXl3b3JkIjoiY29ycmVjdGlvbmFsIGZhY2lsaXRpZXMgKGp1dmVuaWxlcykifQ%3D%3D) The National Survey of Youth in Custody collects confidential data on sexual assault in juvenile facilities to fulfill requirements of the Prison Rape Elimination Act of 2003. Using private audio computer assisted self interviews, the survey gathers detailed background, perception, and victimization information from thousands of youth across various facilities. These findings help the Bureau of Justice Statistics measure and report on the prevalence of sexual victimization in the juvenile justice system
 - [Compendium of National Juvenile Justice Datasets](https://ojjdp.ojp.gov/compendium-national-juvenile-justice-datasets#survey-of-youth-in-custody) The links aren't working but I can guess that these data sets will be of use for my project once I find out how to get to them
 - [JDAI Dashboard](https://www.mass.gov/info-details/jdai-dashboard)State level data showing demographic information about Juveniles in Massachusetts prison. Also includes some data on youth held without bail.
+## jessie (trying to avoid merge conflict)
+- [some prison coordinates ](https://github.com/miolow/US_prisons/blob/master/allprisons.csv)
+- [interactive prison map](https://www.cccarto.com/atlas/prisons/)
+- [map with infor for each state](https://www.prisonpolicy.org/blog/2023/09/27/updated_race_data/)
+- [some more prison coordinates](http://github.com/joshbegley/Carceral-Space/blob/master/all_us_prisons.csv)
+- [data from DIG, correctional facilities by state](https://nicic.gov/resources/nic-library/corrections-trends/locate-correctional-facilities-state)
