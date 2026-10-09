@@ -1,5 +1,5 @@
 ---
-title: Research Plan
+title: "Research Plan"
 author: Catherine Xu
 execute:
   code-fold: true
