@@ -1,6 +1,6 @@
 ---
 title: "Research Plan"
-author: Catherine Xu
+author: "Catherine Xu"
 execute:
   code-fold: true
 ---
