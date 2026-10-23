@@ -21,14 +21,13 @@ Based on the information provided in this dataset, what role, if any, does both 
 I am particularly curious about the race of the victim in these domestic violence reports. I wonder if there is any correlation between the race of the victim and how often/if police file an incident reports.
 ```{python}
 import pandas as pd
-from pyprojroot import here # this helps us navigate tricky path stuff between local runs and quarto builds
+from pyprojroot import here
 
-# Load the data using here() with the path from the project root
 file_path = here("projects/catherine project revamp//dataset/GBVdata.csv")
-df = pd.read_csv(file_path)  
+df = pd.read_csv(file_path)
 
 # breakdown of victim race
-count_vr = df['Victim Race'].value_counts()
+count_vr = df["Victim Race"].value_counts()
 
 print(count_vr)
 ```
@@ -38,9 +37,8 @@ From the value counts of each unique observation/racial group in this dataset, m
 ## Q2: race of suspect
 
 ```{python}
-
-# breakdown of suspect race 
-count_sr = df['Suspect Race'].value_counts()
+# breakdown of suspect race
+count_sr = df["Suspect Race"].value_counts()
 
 print(count_sr)
 ```
@@ -52,9 +50,9 @@ Most of the suspects in NYC domestic violence incident reports were also Black a
 I want to see if there is any correlation between the race of both suspect and victim in concert with each other. Is it possible that, in cases where the victim is white and/or the suspect is Black, the incident is more likely to be reported? Based purely off my intuition of the role racial bias may play in police reports. 
 
 ```{python}
-vsr_counts = (df.groupby(['Victim Race', 'Suspect Race'])
-  .size()
-  .sort_values(ascending=False))
+vsr_counts = (
+    df.groupby(["Victim Race", "Suspect Race"]).size().sort_values(ascending=False)
+)
 
 print(vsr_counts)
 ```
@@ -64,8 +62,8 @@ From the counts of victim-suspect race pairings, the most commonly reported seem
 ## Q4: borough? 
 I want to see what the breakdown of the number of incidents are per borough, which will lead into my next question about the proportion of suspects of a given race per borough. 
 ```{python}
-# number of incidents per borough? 
-count_borough = df['Borough Name'].value_counts()
+# number of incidents per borough?
+count_borough = df["Borough Name"].value_counts()
 
 print(count_borough)
 ```
@@ -75,8 +73,8 @@ Most of the incident reports seem to have occurred in the Bronx, with Brooklyn f
 ## Q5: intimate relationship? 
 I thought it might be a good idea to see how many of these incidents occurred within an established intimate/domestic relationship. I'm not sure yet how I want to relate this to race, but it is an interesting variable and I'm curious as to why they included it/what their definition of domestic violence is? Is the definition in this dataset extended to be between family members (ie. parent-child) too?
 ```{python}
-# intimate relationship 
-count_ir = df['Intimate Relationship Flag'].value_counts()
+# intimate relationship
+count_ir = df["Intimate Relationship Flag"].value_counts()
 
 print(count_ir)
 ```
@@ -87,7 +85,7 @@ I'm not entirely sure why some observations were inputted as 'YES' and some were
 To clarify my previous question, I obtained the counts of each specific type of domestic violence offense/crime. 
 ```{python}
 # offense type
-count_ot = df['Offense Type'].value_counts()
+count_ot = df["Offense Type"].value_counts()
 
 print(count_ot)
 ```
@@ -98,14 +96,14 @@ The vast majority of the offenses were 'DIRs', which means general domestic inci
 I need literature on the correlation between poverty, race, and the frequency of domestic violence. I have an intuitive belief (from lived experience and observation) that poverty has a lot to do with how often domestic violence occurs, and based on historical discrimination and structural violence that persists to this day it is inextricably tied up with race as well. 
 ```{python}
 # poverty counts
-count_poverty = df['Poverty'].value_counts()
+count_poverty = df["Poverty"].value_counts()
 
 print(count_poverty)
 
 # count total rows
 total_rows = len(df)
 
-# poverty proportion 
+# poverty proportion
 pov_proportion = count_poverty / total_rows * 100
 print(pov_proportion)
 ```
@@ -114,17 +112,13 @@ print(pov_proportion)
 
 ## Q8: Race and Sex
 ```{python}
-victim_proportions = pd.crosstab(
-    df['Victim Race'],
-    df['Victim Sex'],
-    normalize='all'
-) * 100
+victim_proportions = (
+    pd.crosstab(df["Victim Race"], df["Victim Sex"], normalize="all") * 100
+)
 
-suspect_proportions = pd.crosstab(
-    df['Suspect Race'],
-    df['Suspect Sex'],
-    normalize='all'
-) * 100
+suspect_proportions = (
+    pd.crosstab(df["Suspect Race"], df["Suspect Sex"], normalize="all") * 100
+)
 
 
 print(victim_proportions, suspect_proportions)
