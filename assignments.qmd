@@ -104,7 +104,8 @@ These are graded credit/no credit for each of 7 components:
 
 The midterm and final checkins will be a mix between a conversation and an oral exam. You'll schedule a 20-minute block to come to my office where we will talk generally about how the class is going for you and how your project is going. I'll then ask you to respond to two questions, one about the reading, and one about the technical stack we're using. All questions will be shared at least a week before the exams.
 
-Midterm Conversations will happen between **October 14 and 19**. Note no class 10/21 Finals Conversations will happen during finals week.
+Midterm Conversations will happen between **October 14 and 19**. Note that we have no class on 10/21\
+Finals Conversations will happen *in person during the final exam period.*
 
 ### How its graded
 
@@ -117,18 +118,25 @@ These are graded credit/no credit along the following dimensions
 -   demonstrated an ability to respond to the reading question citing evidence from the text
 
 ```{=html}
-<!--
-### Extra credit alert!
-If you are worried about your grade in this class, there will be extra credit opportunities available.  These could include class-contribution activities like:
-
-- Show us two data visualizations using matplotlib after we've set it up
-- Walk us through opening a github pull request 
-- Explain the github fork/branch process
-- Demonstrate making github commits in the terminal
-- Show us how to set up python notebooks in Positron
-- Demonstrate 3 Quality of Life (QoL) terminal improvements or Positron customizations you've made
--->
 ```
+
+#### Midterm Questions
+
+I'll ask you a question about the **reading**, chosen from the following questions. I might also ask you to elaborate on your answer.
+
+-   How has big data changed the way law enforcement officials do their jobs? Support with examples from the reading
+
+-   Describe one of the technological systems that Brayne studies in the book. Where is it implemented? How is it received by officers and community members?
+
+-   How do police respond to being subject to these surveillance systems? Support with examples from the reading.
+
+I'll ask you a **technical** question, chosen from the following questions. I might also ask you to elaborate on your answer:
+
+-   What's the purpose of a virtual environment? How do they work and when are they useful and not useful?
+
+-   Walk me through the git lifecycle of adding a new feature to your project & getting it merged into the main class repo
+
+-   Describe the steps (in Python) to load and clean a dataset in advance of analysis.
 
 ## Research Project
 
@@ -180,13 +188,40 @@ During the second stage, we're actively working on data analysis and making sure
 
 -   exploring data visualizations
 
-#### Key Deliverables
+#### Final Deliverable
 
-*More details about these deliverables and what you'll turn in will appear closer to the due date!*
+::: callout-note
+## You will lose 10% per day this is late, beginning at 12:01 on Thursday morning (aka late Wednesday night)
+:::
 
--   Project and Report scaffold
+By 11:59pm EST on **Wednesday October 21**, you will need to have an open PR that:
 
--   Updated (if necessary) research questions / investigation description
+1.  *builds*. This means that if you run `quarto preview`, everything works okay
+2.  *has no merge conflicts*. This means that when I go to merge it in, it's not in conflict with any code from main. This should be trivial since you're working in your own folder now
+3.  *contains the necessary content (below)*. Is everything there? Are you *sure*? Double check one more time so that we don't go back and forth (and you don't lose points).
+
+**Your PR should contain:**
+
+-   An up-to-date `research-plan.qmd.` If your questions haven't changed, you probably don't need to edit this
+
+-   An `index.qmd` file that links to ALL of your other pages. See the code in `projects/template-stage2/index.qmd` for examples. Think about browsing your classmates' projects via the browser - you need links to know what's there.
+
+-   One or two files (up to you) with **8** questions asked and answered. These questions should contain some text, and some code – that is, I am not interested in the *answers* to the questions, but in your thinking and the code you're writing.
+
+    -   Some folks are doing work in files called `stage2.qmd` and `stage2.2.qmd`, and some are putting them all into `stage2.qmd`. Either is fine
+
+-   A completed `stage2-writing.qmd` file. Follow the instructions in the file `projects/template-stage2/stage2-writing.qmd`!
+
+**Your PR should NOT contain:**
+
+-   ~~*any* of your commits from Stage 1 – only new commits and new/updated files~~
+
+    -   ~~The easiest way to achieve this is to make sure that you're on a different branch from your stage 1 work~~
+    -   **Don't worry about this!!!**
+
+-   *any placeholder text.* Look at your project on the [project listing page](https://nikkostevens.com/sds316/projects/). Does it look complete? Do the images load? Are the tags correct? Do ANY of your files have any left over placeholder content? (check!!! there were a lot on the `research-plan.qmd` files that I saw)
+
+    1.  NOTE: You can view previews locally `quarto preview` - just visit `/projects` at your localhost's URL and see how your project looks
 
 ### Stage 3 - Building and Deploying
 
@@ -212,7 +247,7 @@ During the third stage of the project, we're practicing:
 
 **Due December 15, 2026**
 
-During the first stage of the project, we're practicing:
+During the final stage of the project, we're practicing:
 
 -   revising key findings
 
