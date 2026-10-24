@@ -14,5 +14,5 @@ I will be researching whether or not race plays a role in the rate of domestic v
 
 ### Components
 - [Research Plan](research-plan.qmd) 
-- [Exploratory Data Analysis](stage2 copy.qmd)
-- [Reflection](stage2-writing copy.qmd)
+- [Exploratory Data Analysis](stage2-copy.qmd)
+- [Reflection](stage2-writing-copy.qmd)
