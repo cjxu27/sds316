@@ -20,8 +20,6 @@ Given the US criminal legal system's well-documented precedent for allowing raci
 
 ## Example Projects
 
-Link to three example projects that are related to your questions or how you'd like to display your results.  List them like so:
-
 **[Race and Ethnicity Map of New York](https://bestneighborhood.org/race-in-new-york-ny/):** I wanted to potentially create a spatial visualization (interactive map) of the police presence or surveillance cameras by neighborhood/region of Manhattan. To make it a trivariate map I'm hoping to find a way to layer the racial demographics of each neighborhood on top of the measure of surveillance. I think this visualization method will most effectively communicate the relationship between my variables. 
 
 **[Dismantle NYC's Surveillance State](https://static1.squarespace.com/static/6786da0226ec38320c099635/t/69a74f26da718d22c0b57a82/1772572454655/2026.2.26_STOP%2BReport_Dear%2BMamdani_FINAL.pdf):** This project is a report and petition for Mayor Mamdani to act on his initiatives to dismantle the various forms of harmful government surveillance in NYC. It includes a lot of helpful background and data points, including the estimated costs of the specified reforms, which I will use to contextualize and broaden my coverage and discussion of the types of racially discriminatory surveillance technologies in NYC policing. 

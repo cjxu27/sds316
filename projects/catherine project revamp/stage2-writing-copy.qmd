@@ -5,10 +5,6 @@ execute:
   code-fold: true
 ---
 
-In this file, reflect on what you've learned (overall across all 8 or more questions you've asked and answered) and how you'd like to complete the project.
-
-Answer at least **5** of the following questions:
-
 1.  What data did you think you'd find that you weren't able to find?
 I mentioned this point a few times in my stage 2 file but I think it would be much more helpful if I had more population data, specifically the 2020 census data for NYC to see how the frequency of domestic violence reports map onto the racial demographics of each borough and across the whole city. I didn't expect this dataset to give me that information but I should have had more foresight regarding the potential need to find more general data, but I wanted to work with this main dataset first. 
 
