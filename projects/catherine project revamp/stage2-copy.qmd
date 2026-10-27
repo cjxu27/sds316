@@ -2,7 +2,7 @@
 title: Initial Questions
 author: Catherine Xu
 execute:
-code-fold: true
+    code-fold: true
 ---
 
 
