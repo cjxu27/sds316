@@ -2,7 +2,7 @@
 title: Stage 2 Writing
 author: Catherine Xu
 execute:
-code-fold: true
+    code-fold: true
 ---
 
 
