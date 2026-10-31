@@ -5,7 +5,6 @@ execute:
     code-fold: true
 ---
 
-
 # Stage 2.1: Initial Explorations of the Dataset.
 ::: callout-note
 :::
