@@ -43,10 +43,14 @@ format:
 - Normative decision: striking a balance between incarcerating individual who would not have recidivated (false positive) vs. releasing an individual who ultimately reoffends (false negative)
 - "Code is law": normative decisions essential to basic constitutional rights now "buried in code" (Engels et al. 385), minimizes accountability for judges/prosecutors/legislators 
 - Lack of democratic legitimacy in normative decisions made by commercial entities. Legislative bodies/courts and the public are not involved in the process behind decisions made by the algorithm 
+
+
 ## Main Points (cont'd)
+
 - Pronounced anti-defendant bias (violation of "clear and convincing evidence" for pretrial detention)
 - Using ProPublica data to create corrected model that reduces anti-defendant bias (~2/3 of all decisions correct regardless of threshold)
 - Despite correction optimizing accuracy, not race and age, there still exists a gap between defendants labelled as "black" and younger (more false positives) or "white" and older (more false negaitves) 
+
 
 ## Questions
 - 1. If the authors' corrected algorithm using the ProPublica reduces the overall error rate of the COMPAS algorithm but still disadvantages Black and younger defendants, can we consider it more fair? How can we/the judiciary negotiate the trade-off between improving the accuracy of algorithms and addressing the anti-Black and anti-poor bias baked into questions asked by criminal risk assessments and inherent to the risk factors associated with criminality? 
