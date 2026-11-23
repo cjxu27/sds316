@@ -1,6 +1,6 @@
 ---
-title: Initial Questions
-author: Catherine Xu
+title: "Initial Questions"
+author: "Catherine Xu"
 execute:
     code-fold: true
 ---
