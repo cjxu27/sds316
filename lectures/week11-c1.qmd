@@ -27,7 +27,7 @@ format:
 
 <!-- Don't forget to PREVIEW the slide show in positron to make sure your changes look how you want them to! -->
 
-## Relevant Events
+## Related Articles
 
 [What Algorithmic Injustice Looks Like in Real Life](https://www.propublica.org/article/what-algorithmic-injustice-looks-like-in-real-life)
 
@@ -47,9 +47,9 @@ format:
 
 ## Main Points (cont'd)
 
-- Pronounced anti-defendant bias (violation of "clear and convincing evidence" for pretrial detention)
+- Pronounced anti-defendant bias (violation of "clear and convincing evidence" required for pretrial detention decisions)
 - Using ProPublica data to create corrected model that reduces anti-defendant bias (~2/3 of all decisions correct regardless of threshold)
-- Despite correction optimizing accuracy, not race and age, there still exists a gap between defendants labelled as "black" and younger (more false positives) or "white" and older (more false negaitves) 
+- Despite correction model optimizing for accuracy rather than race and age, there still exists a gap between defendants labelled as "black" and younger (more false positives) or "white" and older (more false negaitves) 
 
 
 ## Questions
